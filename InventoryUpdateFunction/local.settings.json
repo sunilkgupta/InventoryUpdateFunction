@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "DbConnection": "Server=tcp:nsrdatabase.database.windows.net,1433;Initial Catalog=nsr_project;Persist Security Info=False;User ID=admin_nsr;Password=sunilkumar@2024;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}

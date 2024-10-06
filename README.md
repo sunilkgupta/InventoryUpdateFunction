@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
 
-<h3 align="center">Order change function</h3>
+<h3 align="center">Inventory Update Function</h3>
 <p align="center">
 Whenever there is update or create a new order in OrderService microservice. Then new entry or update happens to db. then immediately Azure order change function gets fired and updates the Inventory table column named quantity. It reduces the qty by new order received.
 

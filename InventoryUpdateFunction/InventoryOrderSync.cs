@@ -43,8 +43,9 @@ namespace InventoryUpdateFunction
                 finally
                 {
                     conn.Close();
-                    log.LogInformation("SQL Changes completed!");
                     log.LogInformation("SQL Cconnection closed!");
+                    log.LogInformation("SQL Changes completed!");
+
                 }
             }
         }

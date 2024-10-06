@@ -46,15 +46,13 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Run the Order and Inventory microservices before.
+1. Access the Order and Inventory microservices from provided URL.
 2. Make sure, Inventory table is having some inventories before only.
-3. Based on Inventroy data, make a fresh order.
-4. Put the breakpoint at Azure Function and debug further.
-5. Azure function updates the Inventory table.
-6. Please get the db. logic details prior.
-7. Azure SQL admin login details already shared over mail.
-8. Please update the details in db connection
-   
+3. Based on Inventroy data, make a fresh order. It will update the Inventory quantity based on order qty.
+4. Please run Azure function locally as under the free plan of Azure subscription, I am unable to deploy Azure Function to Azure under consumption plan.
+
+   ![Azure Function issue](https://github.com/user-attachments/assets/1e80063a-6ac5-4e63-8b18-3792d1bce003)
+
 ## Usage
 
 Quick trunaround and async data between these tables and microservices
